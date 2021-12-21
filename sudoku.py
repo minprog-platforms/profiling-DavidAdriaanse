@@ -65,7 +65,7 @@ class Sudoku:
     def column_values(self, i: int) -> Iterable[int]:
         """Returns all values at i-th column."""
         values = []
-        
+         
         for j in range(9):
             values.append(self.value_at(i, j))
 
